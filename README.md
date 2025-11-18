@@ -99,6 +99,8 @@ SELECT
     SUM(amount) OVER() AS totalSales
 FROM payments;
 
+ETC check the file
+
 
 
 
