@@ -36,9 +36,43 @@ This project is designed for:
 ## 📂 Table Structure Summary
 
 ### 1️⃣ `books`
-### book_id (PK)
-### title
-### author
-### price
+
+### 2️⃣ `customers`
+
+### 3️⃣ `orders`
+
+### 4️⃣ `payments`
+
+
+
+---
+
+## 🧠 SQL Concepts Used
+
+✔ Database creation  
+✔ Table creation  
+✔ Primary & foreign keys  
+✔ Insert statements  
+✔ Alter table  
+✔ Joins (Inner, Left, Right)  
+✔ Aggregate functions  
+✔ Group By & Having  
+✔ Subqueries  
+✔ Window functions  
+✔ Ranking  
+✔ Duplicate checks  
+
+---
+
+## 🔍 Sample Queries Included
+
+### 📘 1. Retrieve Book Titles & Authors
+```sql
+
+📦 2. Total Books Sold
+SELECT title, author FROM books;
+
+SELECT SUM(quantity) AS total_quantity FROM orders;
+
 
 
