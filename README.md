@@ -36,9 +36,9 @@ This project is designed for:
 ## 📂 Table Structure Summary
 
 ### 1️⃣ `books`
-book_id (PK)
-title
-author
-price
+### book_id (PK)
+### title
+### author
+### price
 
 
