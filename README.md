@@ -21,3 +21,24 @@ This project is designed for:
 ## 🏗️ Database Schema
 
 ### **Database Created**
+
+
+### **Tables Included**
+| Table Name  | Description |
+|-------------|-------------|
+| `books`     | Stores book details like title, author, price |
+| `customers` | Holds customer names, emails, and addresses |
+| `orders`    | Tracks which customer ordered which book |
+| `payments`  | Stores payment amounts and dates per order |
+
+---
+
+## 📂 Table Structure Summary
+
+### 1️⃣ `books`
+book_id (PK)
+title
+author
+price
+
+
